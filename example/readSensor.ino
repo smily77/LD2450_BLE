@@ -5,6 +5,7 @@ LD2450_BLE bleDevice;
 
 void setup() {
     Serial.begin(115200);
+    
     LD2450_BLE::findLD2450(); // Startet den Scan nach HLK-LD2450-Geräten
     delay(12000); // Warte bis der Scan abgeschlossen ist
 
