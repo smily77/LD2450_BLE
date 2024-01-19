@@ -42,5 +42,5 @@ void loop() {
         bleDevice.attemptReconnect();
         delay(5000); // Wait 5 seconds before trying to reconnect
     }
-    delay(1000);
+
 }
