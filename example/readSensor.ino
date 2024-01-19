@@ -1,5 +1,3 @@
-// 76:e7:80:75:1d:29
-// nun mit Sensor erkennen
 #include "LD2450_BLE.h"
 
 
